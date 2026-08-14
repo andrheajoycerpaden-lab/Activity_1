@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact — Chic Boutique</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Chic Boutique</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="section-pad">
+      <div class="container">
+        <h1 class="display-6 mb-3">Get in touch</h1>
+        <p class="muted">Fill out the form and our team will respond within 2 business days.</p>
+
+        <div class="row mt-4">
+          <div class="col-md-7">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input id="name" class="form-control" type="text" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input id="email" class="form-control" type="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" class="form-control" rows="5"></textarea>
+              </div>
+              <button class="btn btn-primary">Send message</button>
+            </form>
+          </div>
+          <div class="col-md-5">
+            <h5>Visit us</h5>
+            <p class="muted">123 Fashion Lane<br>Style City, CA 90210</p>
+            <p class="muted">Email: <a href="mailto:hello@chicboutique.example">hello@chicboutique.example</a></p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="small muted">© 2026 Chic Boutique</div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
